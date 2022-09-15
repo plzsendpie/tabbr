@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+    background: rgb(247, 247, 247);
+    border-radius: .3rem;
+    color: rgb(59, 59, 59);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin-bottom: 8px;
+        border-radius: .3em;
+
+}
+
+button {
+    background: inherit;
+    color: #0073ff;
+    padding: 10px 20px;
+    border: 1px solid #0073ff;
+    font-weight: bold;
+    border-radius: .3em;
+    cursor: pointer;
+}
+
+#delete-btn {
+    background: inherit;
+    color: #eb4034;
+    border-color: #eb4034;
+}
+
+ul {
+    margin-top: 12px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 2px;
+    background: #ffffff;
+    padding: 8px;
+    width: max-content;
+}
+
+a {
+    color: #0073ff;
+    text-align: right;
+}
+
+
+.del-row-btn{
+    color: white;
+    background: #eb4034;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border:none;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 2px;
+    left: 105%;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
